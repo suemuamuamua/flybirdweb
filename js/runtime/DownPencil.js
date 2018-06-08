@@ -11,7 +11,7 @@ export class DownPencil extends Pencil {
 
   draw () {
     // 上下铅笔的间隙
-    let gap = DataStore.getInstance().canvas.height / 8
+    let gap = DataStore.getInstance().canvas.height / 5
     this.y = this.top + gap
     super.draw()
   }
